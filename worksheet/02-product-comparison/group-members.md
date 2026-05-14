@@ -17,41 +17,30 @@ File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
 
 | # | Mã học viên | Họ tên đầy đủ | Phân công chính |
 |---|---|---|---|
-| 1 | A20-00888 | Nguyễn Thanh Bình | Research + Analysis NotebookLM |
-| 2 | A20-00888 | Nguyễn Thanh Bình | Research + Analysis Elicit |
-
-**Ghi chú:** Lab 2 được thực hiện cá nhân do không có nhóm thực tế. Cả 2 sản phẩm được phân tích bởi cùng một học viên.
+| 1 | 2A202600208 | Nguyễn Thị Cẩm Nhung | Nghiên cứu Perplexity AI, Chụp ảnh màn hình & Phân tích S1-S5 cho Perplexity |
+| 2 | 2A202600484 | Nguyễn Thanh Bình | Nghiên cứu GPT (ChatGPT), Chụp ảnh màn hình & Phân tích S1-S5 cho GPT |
+| 3 | 2A202600164 | Nguyễn Hoàng Việt Hùng | Nghiên cứu Google Gemini, Chụp ảnh màn hình & Phân tích S1-S5 cho Gemini|
 
 ---
 
 ## Nhiệm vụ thử nghiệm chung
 
-"Tổng hợp và phân tích 3-5 bài báo nghiên cứu về AI disruption trong EdTech, tạo báo cáo tóm tắt có dẫn nguồn."
+"So sánh chi phí vận hành và hiệu quả của xe điện vs xe xăng tại thị trường Việt Nam năm 2024, có dẫn nguồn từ các báo cáo ngành."
 
-**Ngành chọn**: **D — Nghiên cứu**
+**Ngành chọn**: A — Tìm kiếm
 
-**Sản phẩm A**: NotebookLM - https://notebooklm.google.com
+**Sản phẩm A**: Perplexity AI (https://www.perplexity.ai/)
 
-**Sản phẩm B**: Elicit - https://elicit.com
+**Sản phẩm B**: Google Gemini (https://gemini.google.com/)
+
+**Sản phẩm C**: GPT (ChatGPT) (https://chatgpt.com/)
 
 ---
 
-## Phân chia screenshot
-
-- Sản phẩm A (NotebookLM) → A20-00888 phụ trách chụp
-- Sản phẩm B (Elicit) → A20-00888 phụ trách chụp
-
-**Tổng số ảnh tối thiểu:** 6 ảnh (3 ảnh/sản phẩm)
-
-### NotebookLM Screenshots:
-1. `notebooklm-1-entry.png` - Giao diện đầu
-2. `notebooklm-2-input.png` - Upload documents
-3. `notebooklm-3-output.png` - Audio Overview generated
-
-### Elicit Screenshots:
-1. `elicit-1-entry.png` - Giao diện đầu
-2. `elicit-2-input.png` - Search query
-3. `elicit-3-output.png` - Research results table
+## Phân chia screenshot (Ít nhất 9 ảnh)
+- Sản phẩm A (Perplexity) → 2A202600208 (Nguyễn Thị Cẩm Nhung)
+- Sản phẩm B (Google Gemini) → 2A202600164 (Nguyễn Hoàng Việt Hùng)
+- Sản phẩm C (GPT) → 2A202600484 (Nguyễn Thanh Bình)
 
 ---
 

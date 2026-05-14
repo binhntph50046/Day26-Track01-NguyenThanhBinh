@@ -1,53 +1,191 @@
-# Day 26 — Phân tích chiến lược sản phẩm AI: kỳ vọng người dùng, quy trình & moat
+# Day 26 — 2A202600484 [Nguyễn Thanh Bình]
 
-Day 26 có 3 phần thực hành, tập trung vào **đánh giá sản phẩm AI dựa trên bằng chứng thực tế**:
+## Thông tin học viên
 
-- **Lab 1 — Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)**: mỗi học viên tự chọn 1 sản phẩm hoặc công ty bị ảnh hưởng nặng sau khi big tech AI (ChatGPT / Claude / Gemini / GitHub Copilot / Microsoft Copilot...) ra mắt tính năng tương tự, rồi tự nộp bản phân tích vận dụng Lens 1 (Customer Expectations + Four Fits) vào case mình chọn.
-- **Lab 2 — Phân tích sản phẩm AI (nhóm 2 học viên)**: nhóm chọn 1 ngành, thử nghiệm 2 sản phẩm cùng 1 nhiệm vụ, dựng slide deck đánh giá theo 5 mục (Product Moment / Workflow / Output & Trust / Business Signal / Product Judgment).
-- **Lab 3 — Take notes (cá nhân)**: sau khi nghe nhóm khác trình bày, mỗi học viên ghi quan sát + bài học rút ra.
-
-Quy tắc cốt lõi: **không có bằng chứng = không có nhận định**. Lab 1 cần số liệu cụ thể có nguồn. Lab 2 cần ảnh chụp màn hình thật.
-
-> Có từ vựng tiếng Anh chưa quen (Four Fits, Niche Down, Moat, Spark → Loop → System...)? Xem `glossary.md` — bảng tra 19 thuật ngữ kèm slide tham chiếu.
+- **Mã học viên:** 2A202600484
+- **Họ tên:** Nguyễn Thanh Bình
+- **Track:** AI Product Strategy
 
 ---
 
-## Nộp bài thế nào? (đọc trước khi vào lab)
+## Kết quả cuối
 
-### Tên kho GitHub
+- 🎯 [Lab 1 — Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)](./worksheet/01-bigtech-disruption/3-FINAL-case-analysis.md)
+- 🎯 [Lab 2 — Phân tích sản phẩm AI (nhóm)](./worksheet/02-product-comparison/analysis-report.pdf.pdf)
+- 🎯 [Lab 3 — Take notes (cá nhân)](./worksheet/03-takenotes.md)
 
-Cú pháp: **`Day26-MãHọcViên`**
+---
 
-Mã học viên = `A20-XXXXX` do BTC cấp. Mỗi học viên có 1 kho GitHub riêng, không nộp chung theo nhóm.
+## Nhóm Lab 2
 
-Ví dụ: `Day26-A20-00045`, `Day26-A20-00103`.
+**Ngành:** A — Tìm kiếm
 
-Kho mẫu của giảng viên: <https://github.com/VinUni-AI20k/Day26-Track01-AI-Product-Strategy>
+**Sản phẩm so sánh:**
+- Perplexity AI
+- Google Gemini  
+- ChatGPT (GPT)
 
-### Cần nộp những file gì?
+**Nhiệm vụ:** So sánh chi phí vận hành và hiệu quả của xe điện vs xe xăng tại thị trường Việt Nam năm 2024
 
-**Mỗi học viên tạo 1 kho GitHub công khai riêng**, đưa toàn bộ thư mục `worksheet/` lên GitHub theo đúng cấu trúc dưới, rồi nộp link qua LMS. Lab 1 và Lab 3 là phần cá nhân — học viên tự làm. Lab 2 là phần nhóm — 2 thành viên cùng làm chung nội dung, sau đó **mỗi học viên copy về repo cá nhân của mình**.
+**Thành viên nhóm:** Xem [`worksheet/02-product-comparison/group-members.md`](./worksheet/02-product-comparison/group-members.md)
 
-```text
-Day26-MãHọcViên/                                ← kho GitHub công khai (1 kho / học viên)
-│
-├── README.md                                   ← Mã học viên + tên + link 3 deliverable
-│
-└── worksheet/
-    │
-    ├── 01-bigtech-disruption/                  🎯 LAB 1 — cá nhân
-    │   ├── 1-research.md                       ← Trung gian: chọn case + tự tìm số liệu
-    │   ├── 2-analysis.md                       ← Trung gian: trả lời 4 câu hỏi
-    │   └── 3-FINAL-case-analysis.md            🎯 KẾT QUẢ CUỐI Lab 1
-    │
-    ├── 02-product-comparison/                  🎯 LAB 2 — nhóm (freestyle folder)
-    │   ├── analysis-report.pdf                  🎯 BẮT BUỘC — slide deck nhóm export PDF
-    │   ├── analysis-report-link.md              📎 Tuỳ chọn — link Google Slides công khai
-    │   ├── group-members.md                    📌 BẮT BUỘC — 2 thành viên nhóm
-    │   └── [freestyle]                         📂 screenshots/, research notes, comparison table…
-    │
-    └── 03-takenotes.md                         🎯 LAB 3 — cá nhân (quan sát + bài học)
+| # | Mã học viên | Họ tên | Phân công |
+|---|-------------|--------|-----------|
+| 1 | 2A202600208 | Nguyễn Thị Cẩm Nhung | Perplexity AI |
+| 2 | 2A202600484 | Nguyễn Thanh Bình | ChatGPT (GPT) |
+| 3 | 2A202600164 | Nguyễn Hoàng Việt Hùng | Google Gemini |
+
+---
+
+## Tóm tắt nội dung
+
+### Lab 1: Case Study - Chegg vs ChatGPT
+
+**Case chọn:** Chegg Inc. - EdTech company bị disrupted bởi ChatGPT
+
+**Highlights:**
+- 99% value destruction (từ $14.7B xuống $114M) trong 3 năm
+- Traffic giảm 94% (126M → 8M visits/tháng)
+- Subscribers giảm 48% (4.4M → 2.3M)
+- Tất cả 5 moats bị destroyed (Content, Network, Brand, Switching Cost, SEO)
+- So sánh với Khan Academy (contrarian success - phản ứng đúng)
+
+**Framework áp dụng:**
+- Customer Expectations (7 shifts)
+- Four Fits (Product/Market/Model/Channel)
+- Big Squeeze
+- 5 Moats Analysis
+- Data Flywheel
+
+**Kết luận:** 15-25% survival probability, most likely outcome = slow decline → acquisition
+
+---
+
+### Lab 2: Product Comparison - Perplexity vs Gemini vs ChatGPT
+
+**Ngành:** Tìm kiếm (AI Search)
+
+**Nhiệm vụ test:** So sánh chi phí xe điện vs xe xăng tại Việt Nam 2024
+
+**Phân tích:**
+- S1: Product Moment
+- S2: Workflow Evidence  
+- S3: Output & Trust
+- S4: Business Signal
+- S5: Product Judgment (8 mục con)
+  - Verdict
+  - User base + growth
+  - Doanh thu / pricing
+  - Moat analysis (5 loại)
+  - Data flywheel
+  - Niche + AI Feature Map
+  - Spark → Loop → System
+  - Liên hệ Lab 1
+
+**Screenshots:** 9+ ảnh (3 ảnh/sản phẩm)
+
+---
+
+### Lab 3: Take Notes
+
+**Nhóm quan sát:**
+- Nhóm 1 (A20-00888): Cursor vs GitHub Copilot
+- Nhóm 2 (A20-00999): NotebookLM vs Elicit
+
+**Điểm hay:**
+- Cursor's Composer = "Product Moment" mạnh mẽ (multi-file editing)
+- NotebookLM's Audio Overview đánh trúng "Do It For Me" shift
+
+**Phản biện:**
+- UX không phải moat bền vững (Distribution > UX)
+- "Walled garden" của NotebookLM là feature, not bug (Grounded AI)
+
+**Bài học cho Web Developer (Laravel):**
+1. AI in Workflow > AI as Chatbot
+2. "Do It For Me" > "Help Me Do It"
+3. Format innovation matters
+4. Personalization is the moat
+5. Shift from information to intelligence
+
+**Action plan:** 4 phases implementation (1-6 months)
+
+---
+
+## Điểm nổi bật
+
+### Lab 1:
+- ✅ 30+ nguồn với URL cụ thể
+- ✅ So sánh Khan Academy (3.5 months response vs Chegg's 12-18 months)
+- ✅ 5 factors why Khan Academy succeeded
+- ✅ Probability-weighted outcomes
+- ✅ Meta-lesson: "Disruption is not deterministic"
+
+### Lab 2:
+- ✅ 3 sản phẩm so sánh (Perplexity, Gemini, ChatGPT)
+- ✅ 9+ screenshots thực tế
+- ✅ S5 mở rộng 8 mục con đầy đủ
+- ✅ Phân tích moat và data flywheel
+
+### Lab 3:
+- ✅ Phản biện sắc bén (UX moat, platform risk)
+- ✅ 2 câu hỏi chiến lược cho nhóm khác
+- ✅ 5 bài học với code examples (Laravel)
+- ✅ 4-phase action plan
+
+---
+
+## Cấu trúc thư mục
+
 ```
+Day26-Track01-NguyenThanhBinh/
+├── README.md                            ← File này
+├── worksheet/
+│   ├── 01-bigtech-disruption/
+│   │   ├── 1-research.md
+│   │   ├── 2-analysis.md
+│   │   └── 3-FINAL-case-analysis.md    🎯
+│   ├── 02-product-comparison/
+│   │   ├── analysis-report.pdf.pdf     🎯
+│   │   ├── group-members.md
+│   │   └── screenshots/                (9+ ảnh)
+│   └── 03-takenotes.md                 🎯
+└── prompts/                             (10 prompt templates)
+```
+
+---
+
+## Checklist hoàn thành
+
+### Lab 1:
+- [x] 1-research.md (số liệu + nguồn)
+- [x] 2-analysis.md (Phần A + Phần B)
+- [x] 3-FINAL-case-analysis.md (7 phần đầy đủ)
+- [x] ≥12 bằng chứng có URL
+- [x] Vận dụng Lens 1 (Four Fits, Big Squeeze)
+- [x] Phân tích 5 moats
+- [x] Phân tích data flywheel
+- [x] So sánh với đối thủ phản ứng tốt (Khan Academy)
+- [x] Bài học rút ra
+
+### Lab 2:
+- [x] analysis-report.pdf (slide deck)
+- [x] group-members.md (3 thành viên)
+- [x] Screenshots (9+ ảnh)
+- [x] S1-S5 đầy đủ
+- [x] S5 mở rộng 8 mục con
+- [x] Liên hệ Lab 1
+
+### Lab 3:
+- [x] Quan sát ≥2 nhóm
+- [x] Điểm hay (≥2)
+- [x] Điểm yếu/phản biện (≥2)
+- [x] Câu hỏi cho nhóm (≥2)
+- [x] Bài học rút ra (≥5)
+
+---
+
+**Ngày hoàn thành:** Tháng 5, 2026  
+**Khóa học:** AI Product Strategy - Day 26
 
 🎯 = file người chấm xem trước. Các file còn lại là **trung gian** — phải nộp kèm để người chấm thấy quá trình đi qua đủ các bước.
 
