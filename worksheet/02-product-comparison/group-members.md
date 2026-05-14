@@ -17,27 +17,41 @@ File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
 
 | # | Mã học viên | Họ tên đầy đủ | Phân công chính |
 |---|---|---|---|
-| 1 | A20-XXXXX | [...] | [...] |
-| 2 | A20-XXXXX | [...] | [...] |
+| 1 | A20-00888 | Nguyễn Thanh Bình | Research + Analysis NotebookLM |
+| 2 | A20-00888 | Nguyễn Thanh Bình | Research + Analysis Elicit |
+
+**Ghi chú:** Lab 2 được thực hiện cá nhân do không có nhóm thực tế. Cả 2 sản phẩm được phân tích bởi cùng một học viên.
 
 ---
 
 ## Nhiệm vụ thử nghiệm chung
 
-[Mô tả 1-2 câu nhiệm vụ chung mà cả 2 thành viên cùng test trên 2 sản phẩm. Ví dụ: "Viết bản tóm tắt 200 từ về tác động của AI lên ngành ed-tech, có dẫn nguồn."]
+"Tổng hợp và phân tích 3-5 bài báo nghiên cứu về AI disruption trong EdTech, tạo báo cáo tóm tắt có dẫn nguồn."
 
-**Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
+**Ngành chọn**: **D — Nghiên cứu**
 
-**Sản phẩm A**: [tên + URL]
+**Sản phẩm A**: NotebookLM - https://notebooklm.google.com
 
-**Sản phẩm B**: [tên + URL]
+**Sản phẩm B**: Elicit - https://elicit.com
 
 ---
 
 ## Phân chia screenshot
 
-- Sản phẩm A → [Mã học viên nào phụ trách chụp]
-- Sản phẩm B → [Mã học viên nào phụ trách chụp]
+- Sản phẩm A (NotebookLM) → A20-00888 phụ trách chụp
+- Sản phẩm B (Elicit) → A20-00888 phụ trách chụp
+
+**Tổng số ảnh tối thiểu:** 6 ảnh (3 ảnh/sản phẩm)
+
+### NotebookLM Screenshots:
+1. `notebooklm-1-entry.png` - Giao diện đầu
+2. `notebooklm-2-input.png` - Upload documents
+3. `notebooklm-3-output.png` - Audio Overview generated
+
+### Elicit Screenshots:
+1. `elicit-1-entry.png` - Giao diện đầu
+2. `elicit-2-input.png` - Search query
+3. `elicit-3-output.png` - Research results table
 
 ---
 
